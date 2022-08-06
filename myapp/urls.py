@@ -9,6 +9,7 @@ router.register('reservations', views.ReservationViewSet)
 
 urlpatterns = [
     path('findFlights/',views.find_flights),
+    path('saveReservation/',views.save_reservation),
 ]
 
 urlpatterns += router.urls
