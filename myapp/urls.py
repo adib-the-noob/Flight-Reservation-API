@@ -8,7 +8,7 @@ router.register('passengers', views.PassengerViewSet)
 router.register('reservations', views.ReservationViewSet)
 
 urlpatterns = [
-    
+    path('findFlights/',views.find_flights),
 ]
 
 urlpatterns += router.urls
